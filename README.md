@@ -1,9 +1,9 @@
-CustomToken Solidity Contract
+#CustomToken Solidity Contract
 
 Overview
 CustomToken is a simple ERC20-like smart contract implemented in Solidity that allows minting and burning of tokens. The contract maintains the total supply of tokens and the balances of individual addresses.
 
-Features
+##Features
 
 Token Details: The contract stores the name and abbreviation of the token.
 Minting: Increase the total supply and balance of a specified address.
@@ -15,7 +15,7 @@ Functions
 mint(address _address, uint _value)
 Increases the total supply of tokens and the balance of the specified address.
 
-Parameters:
+###Parameters:
 
 _address: The address to which the tokens will be minted.
 _value: The amount of tokens to mint.
